@@ -2,6 +2,10 @@
 
 A modified and optimized source code for the **SA:MP Mobile Client v2.10 (x64)** for GTA: San Andreas. This repository focuses on fixing known crashes, improving stability on modern Android devices, and resolving existing bugs from the original client.
 
+Модифицированный и оптимизированный исходный код **мобильного клиента SA:MP v2.10 (x64)** для GTA: San Andreas. В этом репозитории основное внимание уделяется исправлению известных сбоев, повышению стабильности на современных устройствах Android и устранению существующих ошибок оригинального клиента.
+
+โค้ดต้นฉบับที่ได้รับการแก้ไขและปรับปรุงประสิทธิภาพสำหรับ **SA:MP Mobile Client v2.10 (x64)** สำหรับเกม GTA: San Andreas ที่เก็บโค้ดนี้เน้นการแก้ไขข้อผิดพลาดที่ทำให้เกมหยุดทำงาน ปรับปรุงเสถียรภาพบนอุปกรณ์ Android รุ่นใหม่ และแก้ไขข้อบกพร่องที่มีอยู่จากไคลเอนต์เวอร์ชันเดิม
+
 ---
 
 ## 📸 Screenshots / รูปภาพตัวอย่าง
@@ -10,7 +14,7 @@ A modified and optimized source code for the **SA:MP Mobile Client v2.10 (x64)**
 
 | Main Menu / หน้าแรก | Gameplay / บรรยากาศในเกม | Chat Input / ระบบพิมพ์แชท |
 | :---: | :---: | :---: |
-| <img src="https://www.blast.hk/attachments/264084/" width="250" alt="Main Menu"> | <img src="ลิงก์รูปภาพที่ 2 เช่น https://github.com" width="250" alt="Gameplay"> | <img src="ลิงก์รูปภาพที่ 3 เช่น https://github.com" width="250" alt="Chat UI"> |
+| <img src="https://www.blast.hk/attachments/264084/" width="250" alt="Main Menu"> | <img src="https://www.blast.hk/attachments/270754/" width="250" alt="Gameplay"> | <img src="https://www.blast.hk/attachments/270754/" width="250" alt="Chat UI"> |
 
 > 💡 *Tip: Create a `screenshots` folder in your repository root and upload your images as `menu.png`, `gameplay.png`, and `chat.png`.*
 
@@ -64,6 +68,58 @@ We are excited to announce the first official release of the optimized **SA:MP M
 * **Architecture:** Full 64-bit (x64) compatibility with optimized memory management.
 * **UI & Keyboard Fixes:** Improved chat input responsiveness and fixed layout stretching on various screen aspect ratios.
 * **Network Stability:** Reduced desync and packet loss issues on high-ping mobile networks.
+* **Advanced Game Crash Fixes:** Fixed multiple native crashes, random force close issues, and unexpected client shutdowns during gameplay.
+* **Memory Leak Improvements:** Resolved memory leak problems related to texture streaming, multiplayer entities, and UI rendering systems.
+* **Black Screen & Freeze Fixes:** Fixed black screen issues, infinite loading screens, and random game freezes on modern Android devices.
+* **Texture & Model Stability:** Improved handling for TXD/TEXDB textures and custom models to reduce rendering crashes.
+* **FPS & Performance Optimization:** Improved frame stability and reduced lag spikes in crowded multiplayer servers and high texture environments.
+* **Renderer Enhancements:** Optimized OpenGL rendering pipeline for smoother graphics processing and reduced GPU overload.
+* **Thread & CPU Fixes:** Fixed unsafe thread handling and optimized CPU scheduling for better game responsiveness.
+* **Improved RAM Management:** Reduced excessive RAM usage and improved background memory cleanup.
+* **Android API Compatibility:** Updated compatibility for Android 13/14 scoped storage, permissions, and native libraries.
+* **JNI Stability Improvements:** Fixed several JNI bridge crashes affecting ARM64 devices.
+* **Improved Connection Handling:** Reduced timeout issues, reconnect loops, and unstable server handshakes.
+* **Anti-Desync Improvements:** Improved RakNet packet synchronization to reduce player desync and vehicle warping.
+* **Keyboard & Chat Fixes:** Fixed virtual keyboard overlap, stuck input bugs, and chat scaling issues on ultrawide screens.
+* **Touch Control Optimization:** Improved touch latency and fixed delayed touch response on high refresh rate devices.
+* **Safe Asset Loading:** Added safer loading methods for textures, sounds, and map assets to reduce corruption-related crashes.
+* **Background Resume Fixes:** Fixed crashes when minimizing and reopening the game from recent apps.
+* **Improved GPU Compatibility:** Added better support for Adreno, Mali, and PowerVR graphics drivers.
+* **Enhanced Logging System:** Added internal debug logging and crash diagnostics for easier troubleshooting.
+* **Low-End Device Optimization:** Reduced stuttering and improved gameplay stability on low RAM devices.
+* **Improved Multiplayer Stability:** Fixed sync issues related to streamed vehicles, players, and server-side entities.
+* **Audio System Fixes:** Fixed rare audio-related crashes and sound synchronization issues.
+* **File System Improvements:** Fixed problems detecting GTA:SA data files and external assets on certain Android devices.
+* **Better Resource Management:** Improved unloading system for textures and game assets to prevent random crashes.
+* **Reduced Battery Consumption:** Optimized rendering and network processing to lower battery usage during long gameplay sessions.
+
+---
+
+### 🇹🇭 Additional Thai Fixes / รายการแก้ไขเพิ่มเติม
+
+* **แก้ปัญหาเกมเด้งเพิ่มเติม:** แก้ไขอาการเกมปิดตัวเองแบบสุ่ม (Force Close) และ Native Crash ระหว่างเล่นเกม
+* **แก้ Memory Leak:** ลดปัญหากิน RAM สูงผิดปกติระหว่างโหลด Texture, UI และข้อมูลผู้เล่นออนไลน์
+* **แก้จอดำและค้าง:** แก้ปัญหาจอดำหลังเข้าเกม โหลดค้าง และเกมหยุดตอบสนองบน Android รุ่นใหม่
+* **ปรับปรุงระบบโหลด Texture:** ลดโอกาสเกมเด้งขณะโหลดโมเดล พื้นผิว และไฟล์ TEXDB/TXD
+* **เพิ่มความเสถียร FPS:** ลดอาการ FPS ร่วง กระตุก และแลคในเซิร์ฟเวอร์คนเยอะหรือใช้มอดหนัก
+* **ปรับปรุงระบบ Render:** ปรับแต่ง OpenGL Rendering ให้ทำงานลื่นขึ้นและลดภาระ GPU
+* **แก้ปัญหา Thread ภายในเกม:** ลดปัญหาเกมค้างจากการทำงานหลายเธรดพร้อมกัน
+* **ปรับปรุงการจัดการ RAM:** ลดการใช้หน่วยความจำเกินจำเป็นและเพิ่มประสิทธิภาพการคืน RAM
+* **รองรับ Android รุ่นใหม่:** ปรับปรุงระบบ Permissions และ Scoped Storage สำหรับ Android 13/14
+* **แก้ปัญหา JNI และ Native Library:** ลดปัญหา Native Library Crash บนอุปกรณ์ ARM64
+* **แก้ปัญหาหลุดเซิร์ฟเวอร์:** ลดอาการ Timeout, Reconnect Loop และการเชื่อมต่อไม่เสถียร
+* **ลดอาการวาร์ปและ Desync:** ปรับปรุงระบบ Packet และ Synchronization ของ RakNet
+* **แก้บั๊กแชทและคีย์บอร์ด:** ลดปัญหาคีย์บอร์ดค้าง ช่องแชทเบี้ยว และ UI ซ้อนกัน
+* **ปรับปรุงระบบสัมผัส:** ลด Input Delay และเพิ่มความแม่นยำของระบบ Touch Screen
+* **เพิ่มความปลอดภัยในการโหลดไฟล์:** ลดปัญหาเกมเด้งจากไฟล์ Texture หรือ Asset เสีย
+* **แก้ปัญหาเปิดเกมกลับมาแล้วเด้ง:** ปรับปรุงระบบ Resume App จาก Background
+* **รองรับ GPU มากขึ้น:** เพิ่มความเข้ากันได้กับชิปกราฟิก Adreno, Mali และ PowerVR
+* **เพิ่มระบบ Debug:** เพิ่ม Crash Logging และระบบตรวจสอบข้อผิดพลาดภายใน
+* **ปรับแต่งมือถือสเปคต่ำ:** ลดอาการแลคและเพิ่มเสถียรภาพบนอุปกรณ์ RAM ต่ำ
+* **ปรับปรุง Multiplayer Sync:** แก้ปัญหาผู้เล่น รถ และวัตถุในเกม Sync ไม่ตรงกัน
+* **แก้ปัญหาระบบเสียง:** ลดอาการเสียงหาย เสียงแตก และ Crash จากระบบ Audio
+* **แก้ปัญหาอ่านไฟล์เกม:** ปรับปรุงระบบตรวจจับไฟล์ GTA:SA และ Asset ภายนอก
+* **ลดการใช้แบตเตอรี่:** ปรับแต่งการประมวลผล Rendering และ Network ให้ประหยัดพลังงานมากขึ้น
 
 ---
 
@@ -124,11 +180,66 @@ This client supports customized ASI loaders and Cleo scripts. To activate modifi
 
 ## 👥 Development Team & Credits
 * **Development Team:** [ALEEFDEV / MAYDEV]
+* * **Development Team Support:** [LoganOMP / ChenH4X / NewOMP / Justin]
 * * **Team:** [Girl Developer / Lux Developer]
 * **Rockstar Games** - Creators of GTA: San Andreas.
 * **SA:MP Team** - Original SA:MP multiplayer modification for PC.
 * **Mobile Community Developers** - For the foundational mobile port source code.
 * **Contributors** - Bug fixes, x64 compilation optimization, and modern Android compatibility updates.
+
+---
+
+## ⬇️ Download / ดาวน์โหลด
+
+### 🇺🇸 English
+
+Download the latest optimized build of **SA:MP Mobile Client v2.10 (x64)** below:
+
+<p align="center">
+<a href="https://github.com/your-repository/releases">
+<img src="https://img.shields.io/badge/Download-Latest%20APK-00C853?style=for-the-badge&logo=android&logoColor=white">
+</a>
+
+<a href="https://github.com/your-repository/releases">
+<img src="https://img.shields.io/badge/Download-Game%20Data-2962FF?style=for-the-badge&logo=google-drive&logoColor=white">
+</a>
+
+<a href="https://discord.gg/thdevelopercommu">
+<img src="https://img.shields.io/badge/Join-Discord%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+</a>
+</p>
+
+---
+
+### 🇹🇭 ภาษาไทย
+
+ดาวน์โหลดเวอร์ชันล่าสุดของ **SA:MP Mobile Client v2.10 (x64)** ได้จากปุ่มด้านล่าง:
+
+<p align="center">
+<a href="https://github.com/your-repository/releases">
+<img src="https://img.shields.io/badge/ดาวน์โหลด-APK%20ล่าสุด-00C853?style=for-the-badge&logo=android&logoColor=white">
+</a>
+
+<a href="https://github.com/your-repository/releases">
+<img src="https://img.shields.io/badge/ดาวน์โหลด-ไฟล์%20DATA-2962FF?style=for-the-badge&logo=google-drive&logoColor=white">
+</a>
+
+<a href="https://discord.gg/thdevelopercommu">
+<img src="https://img.shields.io/badge/เข้าร่วม-Discord%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+</a>
+</p>
+
+---
+
+## ⭐ Repository Status
+
+<p align="center">
+<img src="https://img.shields.io/badge/Platform-Android%209+-brightgreen?style=flat-square">
+<img src="https://img.shields.io/badge/Architecture-ARM64--v8a-blue?style=flat-square">
+<img src="https://img.shields.io/badge/Build-Stable-success?style=flat-square">
+<img src="https://img.shields.io/badge/Version-v2.10-orange?style=flat-square">
+<img src="https://img.shields.io/badge/Status-Bug%20Fix%20Edition-red?style=flat-square">
+</p>
 
 ---
 
