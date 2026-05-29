@@ -133,7 +133,7 @@ We are excited to announce the first official release of the optimized **SA:MP M
 ### Build Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com
+   git clone https://github.com/naphatsornbt/SA-MP-Mobile-Client-2.10-x64-/
    ```
 2. Open the project in **Android Studio**.
 3. Sync Gradle and ensure all dependencies are downloaded.
@@ -202,6 +202,11 @@ Download the latest optimized build of **SA:MP Mobile Client v2.10 (x64)** below
 
 <a href="https://github.com/your-repository/releases">
 <img src="https://img.shields.io/badge/Download-Game%20Data-2962FF?style=for-the-badge&logo=google-drive&logoColor=white">
+</a>
+
+<a href="https://github.com/your-repository/releases">
+<img src="https://img.shields.io/github/size/naphatsornbt/https%3A%2F%2Fgithub.com%2Fnaphatsornbt%2FSA-MP-Mobile-Client-2.10-x64-/debug.apk
+">
 </a>
 
 <a href="https://discord.gg/thdevelopercommu">
