@@ -133,7 +133,7 @@ We are excited to announce the first official release of the optimized **SA:MP M
 ### Build Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/naphatsornbt/SA-MP-Mobile-Client-2.10-x64-/
+   git clone https://github.com/junior-dior/SA-MP-Mobile-Client-2.10-x64-/
    ```
 2. Open the project in **Android Studio**.
 3. Sync Gradle and ensure all dependencies are downloaded.
@@ -196,16 +196,16 @@ This client supports customized ASI loaders and Cleo scripts. To activate modifi
 Download the latest optimized build of **SA:MP Mobile Client v2.10 (x64)** below:
 
 <p align="center">
-<a href="https://github.com/naphatsornbt/SA-MP-Mobile-Client-2.10-x64-/releases">
+<a href="https://github.com/junior-dior/SA-MP-Mobile-Client-2.10-x64-/releases">
 <img src="https://img.shields.io/badge/Download-Latest%20APK-00C853?style=for-the-badge&logo=android&logoColor=white">
 </a>
 
-<a href="https://github.com/naphatsornbt/SA-MP-Mobile-Client-2.10-x64-/releases">
+<a href="https://github.com/junior-dior/SA-MP-Mobile-Client-2.10-x64-/releases">
 <img src="https://img.shields.io/badge/Download-Game%20Data-2962FF?style=for-the-badge&logo=google-drive&logoColor=white">
 </a>
 
-<a href="https://github.com/naphatsornbt/SA-MP-Mobile-Client-2.10-x64-/releases">
-<img src="https://img.shields.io/github/size/naphatsornbt/https%3A%2F%2Fgithub.com%2Fnaphatsornbt%2FSA-MP-Mobile-Client-2.10-x64-/debug.apk
+<a href="https://github.com/junior-dior/SA-MP-Mobile-Client-2.10-x64-/releases">
+<img src="https://img.shields.io/github/size/junior-dior/https%3A%2F%2Fgithub.com%2Fjunior-dior%2FSA-MP-Mobile-Client-2.10-x64-/debug.apk
 ">
 </a>
 
@@ -221,16 +221,16 @@ Download the latest optimized build of **SA:MP Mobile Client v2.10 (x64)** below
 ดาวน์โหลดเวอร์ชันล่าสุดของ **SA:MP Mobile Client v2.10 (x64)** ได้จากปุ่มด้านล่าง:
 
 <p align="center">
-<a href="https://github.com/naphatsornbt/SA-MP-Mobile-Client-2.10-x64-/releases">
+<a href="https://github.com/junior-dior/SA-MP-Mobile-Client-2.10-x64-/releases">
 <img src="https://img.shields.io/badge/ดาวน์โหลด-APK%20ล่าสุด-00C853?style=for-the-badge&logo=android&logoColor=white">
 </a>
 
-<a href="https://github.com/naphatsornbt/SA-MP-Mobile-Client-2.10-x64-/releases">
+<a href="https://github.com/junior-dior/SA-MP-Mobile-Client-2.10-x64-/releases">
 <img src="https://img.shields.io/badge/ดาวน์โหลด-ไฟล์%20DATA-2962FF?style=for-the-badge&logo=google-drive&logoColor=white">
 </a>
 
-<a href="https://github.com/naphatsornbt/SA-MP-Mobile-Client-2.10-x64-/releases">
-<img src="https://img.shields.io/github/size/naphatsornbt/https%3A%2F%2Fgithub.com%2Fnaphatsornbt%2FSA-MP-Mobile-Client-2.10-x64-/debug.apk
+<a href="https://github.com/junior-dior/SA-MP-Mobile-Client-2.10-x64-/releases">
+<img src="https://img.shields.io/github/size/junior-dior/https%3A%2F%2Fgithub.com%2Fjunior-dior%2FSA-MP-Mobile-Client-2.10-x64-/debug.apk
 ">
 </a>
 
@@ -267,7 +267,7 @@ This project is for educational and development purposes only. All rights to GTA
 
 # ⚠️ Copyright & Intellectual Property
 
-© 2026 **นภัสสร ปิ่นเครือ (Naphatsorn Pinkruea)**
+© 2026 **จูเนียร์ (junior-dior)**
 All Rights Reserved.
 
 This repository, including source code, systems, architecture, UI/UX concepts, engineering structures, configurations, assets, and development workflows, is protected under international copyright and intellectual property laws.
@@ -290,8 +290,8 @@ Unauthorized copying, redistribution, modification, reproduction, re-uploading, 
 
 ### ⚡ Official Ownership
 
-**Owner:** นภัสสร ปิ่นเครือ
-**GitHub:** github.com/naphatsornbt
+**Owner:** จูเนียร์
+**GitHub:** github.com/junior-dior
 
 ---
 
@@ -303,11 +303,11 @@ Unauthorized copying, redistribution, modification, reproduction, re-uploading, 
 
 ## 🔒 ใบอนุญาตและข้อกำหนดสิทธิ์ (Proprietary & Copyright License)
 
-**ลิขสิทธิ์ © 2026 naphatsornbt สงวนลิขสิทธิ์ตามกฎหมายทุกประการ**
+**ลิขสิทธิ์ © 2026 junior-dior สงวนลิขสิทธิ์ตามกฎหมายทุกประการ**
 
 > [!CAUTION]
 > ### 🚨 คำเตือนและข้อตกลงสำคัญ (โปรดอ่านก่อนคิดจะคัดลอก)
-> ผลงาน โครงสร้าง ดีไซน์ และซอร์สโค้ดทั้งหมดใน Repository นี้ เป็นทรัพย์สินทางปัญญาของ **naphatsornbt** แต่เพียงผู้เดียว **ไม่อนุญาต** ให้ทำการคัดลอก ดัดแปลง แจกจ่าย หรือนำไปแอบอ้างเป็นผลงานของตนเองไม่ว่ากรณีใด ๆ ทั้งสิ้น
+> ผลงาน โครงสร้าง ดีไซน์ และซอร์สโค้ดทั้งหมดใน Repository นี้ เป็นทรัพย์สินทางปัญญาของ **junior-dior** แต่เพียงผู้เดียว **ไม่อนุญาต** ให้ทำการคัดลอก ดัดแปลง แจกจ่าย หรือนำไปแอบอ้างเป็นผลงานของตนเองไม่ว่ากรณีใด ๆ ทั้งสิ้น
 
 ### 🚫 ข้อห้ามเด็ดขาด (Strict Prohibitions)
 1. **ห้าม Copy-Paste เนียน:** ห้ามดึงเอาดีไซน์ ส่วนประกอบ มาร์คดาว หรือโค้ดส่วนใดส่วนหนึ่งไปใช้ใน Profile หรือ Repository ของตัวเองโดยไม่ได้รับอนุญาตเป็นลายลักษณ์อักษร
@@ -326,7 +326,7 @@ Unauthorized copying, redistribution, modification, reproduction, re-uploading, 
 > ### TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
 ### 1. Ownership & Restrictions
-All contents, including but not limited to source code, documentation, graphics, layout, and markdown structures in this repository, are the exclusive property of **naphatsornbt**. 
+All contents, including but not limited to source code, documentation, graphics, layout, and markdown structures in this repository, are the exclusive property of **junior-dior**. 
 * **NO LICENSE IS GRANTED** for commercial use, public redistribution, or modification.
 * You may **NOT** clone, fork, or copy this repository with the intent to host it as your own work.
 
@@ -342,4 +342,4 @@ Any detected infringement, plagiarism, or unauthorized redistribution will be me
 
 ## 📄 Proprietary License & Terms of Service
 
-**Copyright © 2026 naphatsornbt. All rights reserved.**
+**Copyright © 2026 junior-dior. All rights reserved.**
